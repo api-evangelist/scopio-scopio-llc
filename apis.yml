@@ -1,9 +1,29 @@
 aid: scopio-scopio-llc
 name: Scopio, Scopio LLC
-description: Scopio, Scopio LLC is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Scopio (Scopio LLC) is a New York-based global visual-content marketplace and
+  creative-talent platform, founded in 2017 and backed by 500 Global. It connects
+  businesses with a network of 25,000+ vetted photographers and visual artists across
+  172 countries and a library of more than three million authentic, diverse stock
+  images that can be licensed under standard, extended, and editorial licenses. Brands
+  including Disney, Microsoft, and Meta use Scopio to hire creative talent and source
+  unique imagery, with AI used to sort, tag, title, and feature contributed work.
+  Scopio operates as a consumer- and business-facing web and mobile marketplace
+  (Shopify-hosted storefront plus iOS/Android artist apps); it does not currently
+  publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/scopio-scopio-llc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://scop.io/cdn/shop/files/Scopio_logo_Color_dark_small.png?v=1613749882
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Stock Photography
+- Images
+- Visual Content
+- Creative Marketplace
+- Content Licensing
+- Photography
+- Creative Talent
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/scopio-scopio-llc-domain-security.yml
 - type: Website
   url: https://scop.io
+- type: About
+  url: https://scop.io/pages/about
+- type: SignUp
+  url: https://scop.io/pages/signup
+- type: Login
+  url: https://scop.io/pages/login
+- type: Pricing
+  url: https://scop.io/pages/subscription
+- type: Support
+  url: https://scop.io/pages/contact-us
+- type: GettingStarted
+  url: https://scop.io/pages/contributor-faqs
+- type: TermsOfService
+  url: https://scop.io/pages/terms-conditions
+- type: PrivacyPolicy
+  url: https://scop.io/pages/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
