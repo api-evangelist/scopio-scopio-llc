@@ -1,15 +1,12 @@
 aid: scopio-scopio-llc
-name: Scopio, Scopio LLC
-description: >-
-  Scopio (Scopio LLC) is a New York-based global visual-content marketplace and
-  creative-talent platform, founded in 2017 and backed by 500 Global. It connects
-  businesses with a network of 25,000+ vetted photographers and visual artists across
-  172 countries and a library of more than three million authentic, diverse stock
-  images that can be licensed under standard, extended, and editorial licenses. Brands
-  including Disney, Microsoft, and Meta use Scopio to hire creative talent and source
-  unique imagery, with AI used to sort, tag, title, and feature contributed work.
-  Scopio operates as a consumer- and business-facing web and mobile marketplace
-  (Shopify-hosted storefront plus iOS/Android artist apps); it does not currently
+name: Scopio
+description: Scopio (Scopio LLC) is a New York-based global visual-content marketplace and creative-talent
+  platform, founded in 2017 and backed by 500 Global. It connects businesses with a network of 25,000+
+  vetted photographers and visual artists across 172 countries and a library of more than three million
+  authentic, diverse stock images that can be licensed under standard, extended, and editorial licenses.
+  Brands including Disney, Microsoft, and Meta use Scopio to hire creative talent and source unique imagery,
+  with AI used to sort, tag, title, and feature contributed work. Scopio operates as a consumer- and business-facing
+  web and mobile marketplace (Shopify-hosted storefront plus iOS/Android artist apps); it does not currently
   publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/scopio-scopio-llc/refs/heads/main/apis.yml
 deliveryModel:
@@ -43,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Stock Photography
@@ -94,3 +91,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-aliases:
+- Scopio LLC
